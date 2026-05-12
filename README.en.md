@@ -13,6 +13,7 @@ Chinese README: [README.md](README.md).
 - Produces a ranked 10-paper Markdown index.
 - Produces detailed Markdown notes for the top 3 papers only.
 - Extracts title, authors, venue, DOI/URL, abstract, keywords, score, and ranking rationale.
+- Reports CAS journal quartile and impact factor for journal papers when verifiable, with metric year/source when available.
 - Marks missing metadata as `unavailable` instead of inventing it.
 
 ## Specialized Focus

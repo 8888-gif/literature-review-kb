@@ -32,6 +32,8 @@ Each ranked item must include:
 - Title.
 - Authors/year.
 - Venue.
+- CAS journal quartile (中科院分区), including year/source when available.
+- Impact factor, including JCR year/source when available.
 - DOI/URL.
 - Abstract.
 - Keywords.
@@ -57,5 +59,6 @@ Before finalizing:
 
 - Confirm there are 10 ranked papers or explain why fewer valid papers exist.
 - Confirm only top 3 papers have deep notes.
+- Confirm journal quartiles and impact factors are verified or marked `unavailable`.
 - Confirm all generated claims are grounded in available metadata or clearly labeled as interpretation.
 - Confirm unavailable fields are marked instead of invented.

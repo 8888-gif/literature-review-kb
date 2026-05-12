@@ -11,6 +11,8 @@ Score papers on a 100-point scale. Adapt weights by mode, but preserve transpare
 - Methodological representativeness: 10
 - Metadata completeness: 10
 
+Venue and publication quality should consider verified Chinese Academy of Sciences journal quartile (中科院分区), impact factor, journal/conference reputation, and peer-review status. If quartile or impact factor cannot be verified, do not guess; mark it `unavailable` and rely on other venue evidence.
+
 ## Resin/Polymer + ML
 
 - Topic relevance to resin/polymer + ML: 20
@@ -29,6 +31,7 @@ Domain-specific ranking signals:
 - Interpretable ML: SHAP, feature importance, ablation, sensitivity analysis, uncertainty quantification, or physically meaningful factors.
 - Validation beyond internal cross-validation: external test set, experimental validation, prospective validation, or closed-loop optimization.
 - Public data, code, supplementary tables, PolyInfo, Materials Project, Citrination, Materials Cloud, or other materials database usage.
+- Verified CAS journal quartile and impact factor for journal papers, especially when comparing papers with similar technical relevance.
 
 ## AI Frontier Tracking
 
@@ -39,6 +42,8 @@ Domain-specific ranking signals:
 - Code/model availability: 10
 - Recency: 10
 - Cross-domain transfer potential: 10
+
+For conference-first AI papers, CAS quartile and impact factor may be not applicable. Use `not applicable` for non-journal venues instead of forcing journal metrics.
 
 ## Cross-Domain Inspiration
 

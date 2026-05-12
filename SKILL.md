@@ -21,7 +21,7 @@ Use this skill to build a ranked literature knowledge base rather than write pap
    - Specified databases: use the user's requested database names and access constraints.
 3. Search, verify, and deduplicate papers. Prefer primary sources and metadata pages over secondary summaries.
 4. Rank exactly 10 papers when enough valid candidates exist. If fewer are available, state the reason and rank all valid candidates.
-5. Extract for all ranked papers: title, authors/year, venue, DOI/URL, abstract, keywords, ranking score, and ranking reason. Mark unavailable fields as `unavailable`; do not invent metadata.
+5. Extract for all ranked papers: title, authors/year, venue, CAS journal quartile, impact factor, DOI/URL, abstract, keywords, ranking score, and ranking reason. Mark unavailable fields as `unavailable`; do not invent metadata.
 6. Create or update a Markdown index for all 10 papers and detailed Markdown notes only for the top 3.
 7. For every top 3 note, include AI frontier inspiration, Surrogate Modeling analogy, and transferable research ideas.
 
@@ -44,5 +44,6 @@ Use this skill to build a ranked literature knowledge base rather than write pap
 
 - Keep outputs evidence-grounded and citation-aware.
 - Separate verified paper facts from Codex-generated interpretation.
-- Do not fabricate abstracts, keywords, metrics, DOI, citation counts, datasets, code links, or experimental validation.
+- For journal papers, include Chinese Academy of Sciences journal quartile (中科院分区) and impact factor when verifiable. State the year/source of the quartile and impact factor when available; otherwise write `unavailable`.
+- Do not fabricate abstracts, keywords, metrics, DOI, citation counts, journal quartiles, impact factors, datasets, code links, or experimental validation.
 - Do not create related-work paragraphs or manuscript sections unless the user separately requests writing.

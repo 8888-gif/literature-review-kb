@@ -2,7 +2,9 @@
 
 `literature-review-kb` 是一个 Codex 技能，用于学术文献检索、排名筛选和 Markdown 知识库整理。
 
-它的核心目标是：围绕用户提供的研究主题检索并排名 10 篇文献，然后只对排名前 3 的文献生成深度笔记。除非用户明确要求，否则该技能不负责撰写论文正文、综述段落或 manuscript prose。
+它的核心目标是围绕用户提供的研究主题检索并排名 10 篇文献，然后只对排名前 3 的文献生成深度笔记。除非用户明确要求，否则该技能不负责撰写论文正文、综述段落或 manuscript prose。
+
+英文版说明见 [README.en.md](README.en.md)。
 
 ## 功能概览
 
@@ -11,7 +13,8 @@
 - 生成 10 篇文献的 Markdown 排名索引。
 - 只为排名前 3 的文献生成深度 Markdown 笔记。
 - 提取题目、作者、年份、期刊/会议、DOI/URL、摘要、关键词、评分和排名理由。
-- 对缺失信息标记为 `unavailable`，不编造摘要、关键词、DOI、引用量、数据集或实验验证信息。
+- 对期刊论文标出中科院分区和影响因子，并尽量注明指标年份或来源。
+- 对缺失信息标记为 `unavailable`，不编造摘要、关键词、DOI、引用量、中科院分区、影响因子、数据集或实验验证信息。
 
 ## 专业方向
 
@@ -50,27 +53,29 @@
 
 ```text
 literature-review-kb/
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    ├── index_template.md
-    ├── literature_workflow.md
-    ├── polymer_descriptors.json
-    ├── ranking_rubric.md
-    └── top3_note_template.md
+|-- SKILL.md
+|-- README.md
+|-- README.en.md
+|-- agents/
+|   `-- openai.yaml
+`-- references/
+    |-- index_template.md
+    |-- literature_workflow.md
+    |-- polymer_descriptors.json
+    |-- ranking_rubric.md
+    `-- top3_note_template.md
 ```
 
 ## 使用示例
 
 ```text
-Use $literature-review-kb to find 10 high-impact papers on epoxy resin Tg prediction with machine learning, rank them, and create deep Markdown notes for the top 3.
+使用 $literature-review-kb 查找 10 篇关于环氧树脂 Tg 预测与机器学习的高影响力文献，进行排名，并为前三篇生成深度 Markdown 笔记。
 ```
 
-中文示例：
+英文示例：
 
 ```text
-使用 $literature-review-kb 查找 10 篇关于环氧树脂 Tg 预测与机器学习的高影响力文献，进行排名，并为前三篇生成深度 Markdown 笔记。
+Use $literature-review-kb to find 10 high-impact papers on epoxy resin Tg prediction with machine learning, rank them, and create deep Markdown notes for the top 3.
 ```
 
 ## 输出形式

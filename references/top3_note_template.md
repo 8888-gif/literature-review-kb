@@ -4,6 +4,8 @@
 
 - Authors / year: [authors, year]
 - Venue: [venue]
+- CAS Quartile (中科院分区): [1区/2区/3区/4区/not applicable/unavailable, with year/source if available]
+- Impact Factor: [impact factor or unavailable, with JCR year/source if available]
 - DOI / URL: [doi/url]
 - Source mode: [open sources | specified databases]
 - Rank and score: [rank, score]
