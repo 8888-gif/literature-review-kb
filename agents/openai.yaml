@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature Review KB"
+  short_description: "Rank literature and build Markdown research notes"
+  default_prompt: "Use $literature-review-kb to find and rank 10 papers, then create deep notes for the top 3."
