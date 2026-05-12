@@ -18,10 +18,11 @@ Chinese README: [README.md](README.md).
 
 ## Specialized Focus
 
-For resin/polymer + ML topics, the skill emphasizes:
+For resin/polymer + ML topics, the skill defaults to two target directions: low dielectric loss materials and thermal conductive materials. It emphasizes:
 
 - Resin systems, curing agents, fillers, and processing conditions.
-- Target properties such as `T_g`, modulus, tensile strength, dielectric constant, and thermal stability.
+- Low dielectric loss metrics such as dielectric loss tangent, dielectric constant, frequency, temperature/humidity conditions, breakdown strength, and insulation reliability.
+- Thermal conductivity metrics such as through-plane/in-plane conductivity, filler type/loading, interfacial thermal resistance, conductive networks, anisotropy, and thermal stability.
 - Descriptor types such as SMILES, fingerprints, GNN topology, physicochemical descriptors, and process descriptors.
 - ML workflows such as active learning, Bayesian optimization, surrogate modeling, GNNs, and LLM-agent loops.
 - Experimental validation, wet-lab evidence, external tests, and reproducibility.

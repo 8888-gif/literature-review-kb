@@ -15,7 +15,7 @@ Venue and publication quality should consider verified Chinese Academy of Scienc
 
 ## Resin/Polymer + ML
 
-- Topic relevance to resin/polymer + ML: 20
+- Topic relevance to resin/polymer + ML, especially low dielectric loss and thermal conductive resin materials: 20
 - Data integrity and scale: 20
 - Descriptor and feature engineering clarity: 15
 - Model quality and validation rigor: 15
@@ -27,6 +27,8 @@ Venue and publication quality should consider verified Chinese Academy of Scienc
 Domain-specific ranking signals:
 
 - Structured resin formulation, curing condition, processing, or property data.
+- Low dielectric loss evidence: dielectric loss tangent, dielectric constant, frequency, temperature, moisture uptake, filler dispersion, and insulation reliability.
+- Thermal conductivity evidence: through-plane/in-plane conductivity, filler loading, interfacial thermal resistance, percolation network, anisotropy, and thermal stability.
 - Clear descriptor representation: SMILES, molecular fingerprints, graph representation, physicochemical descriptors, sequence/polymer descriptors, or processing descriptors.
 - Interpretable ML: SHAP, feature importance, ablation, sensitivity analysis, uncertainty quantification, or physically meaningful factors.
 - Validation beyond internal cross-validation: external test set, experimental validation, prospective validation, or closed-loop optimization.

@@ -8,7 +8,7 @@ Collect only the details needed to search and rank well:
 - Mode: general, resin/polymer + ML, AI frontier, or cross-domain inspiration.
 - Source mode: open sources or specified databases.
 - Output location for the Markdown knowledge base.
-- For resin/polymer + ML: resin system, target property, descriptor preference, validation requirement, and whether wet-lab evidence is required.
+- For resin/polymer + ML: resin system, target property, descriptor preference, validation requirement, and whether wet-lab evidence is required. Default target directions are low dielectric loss materials and thermal conductive materials.
 
 If the user does not specify an output location, create a topic-named Markdown folder in the current workspace or the user-provided knowledge-base root.
 

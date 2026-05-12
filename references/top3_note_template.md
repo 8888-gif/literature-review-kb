@@ -35,7 +35,9 @@
 Use this section for resin/polymer + ML or cross-domain inspiration mode. For unrelated papers, write `not applicable`.
 
 - Polymer System: [resin matrix, curing agent, filler, additive, or unavailable]
-- Target Properties: [`T_g`, modulus, tensile strength, dielectric constant, thermal stability, etc.]
+- Target Properties: [default focus: low dielectric loss and thermal conductivity; include dielectric loss tangent, dielectric constant, frequency, thermal conductivity, thermal stability, `T_g`, modulus, etc. when available]
+- Low Dielectric Loss Fields: [dielectric loss tangent, dielectric constant, frequency range, temperature, humidity/moisture condition, insulation or breakdown evidence, or unavailable]
+- Thermal Conductive Fields: [thermal conductivity, through-plane/in-plane direction, filler type/loading, interfacial thermal resistance, percolation network, anisotropy, or unavailable]
 - Processing / Curing Conditions: [temperature, time, ratio, post-cure, or unavailable]
 - Descriptors: [SMILES, fingerprints, GNN topology, physicochemical descriptors, process descriptors, or unavailable]
 - ML Pipeline: [active learning, Bayesian optimization, surrogate modeling, GNN, transformer, LLM-agent, or other]

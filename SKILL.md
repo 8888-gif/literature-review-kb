@@ -15,7 +15,7 @@ Use this skill to build a ranked literature knowledge base rather than write pap
    - Research topic and required language.
    - Mode: general literature review, resin/polymer + ML, AI frontier tracking, or cross-domain inspiration.
    - Literature source mode: open sources or user-specified databases.
-   - For resin/polymer + ML: ask whether to prioritize a resin system, target property, validation type, or descriptor family.
+   - For resin/polymer + ML: default to low dielectric loss materials and thermal conductive materials unless the user specifies another property; ask whether to prioritize a resin system, target property, validation type, or descriptor family.
 2. Choose sources:
    - Open sources: Semantic Scholar, Crossref, arXiv, publisher pages, OpenReview, Hugging Face Papers, and public AI4S lab pages when relevant.
    - Specified databases: use the user's requested database names and access constraints.
@@ -28,7 +28,7 @@ Use this skill to build a ranked literature knowledge base rather than write pap
 ## Mode Guidance
 
 - **General literature review**: use standard relevance, impact, recency, and methodological coverage scoring.
-- **Resin/polymer + ML**: load `references/polymer_descriptors.json` and emphasize data integrity, descriptors, interpretability, experimental validation, and materials databases.
+- **Resin/polymer + ML**: load `references/polymer_descriptors.json` and emphasize low dielectric loss resins, thermal conductive resins, data integrity, descriptors, interpretability, experimental validation, and materials databases.
 - **AI frontier tracking**: emphasize very recent work, OpenReview discussions, code availability, Hugging Face activity, and frontier model or agent relevance.
 - **Cross-domain inspiration**: combine resin/polymer + ML extraction with AI frontier analogies, especially LLM agents, multimodal models, automated molecular or formulation design, Bayesian optimization, and closed-loop wet-lab workflows.
 
